@@ -1,0 +1,12 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "failed_checks": [
+    "blind horizontal ambiguity at 112.5",
+    "blind horizontal ambiguity at 157.5",
+    "blind horizontal ambiguity at 247.5",
+    "continuity metric warnings at 022.5->045, 157.5->180, and 337.5->000"
+  ],
+  "evidence": "All four cardinal hard gates pass. The labeled normal-size direction sheet preserves the intended quadrants without reversal, and the continuity sheet shows no visible seam, scale pop, identity change, or broken attachment. Transparent rows near y=187-191 are intentional negative space between legs and skirt feathers.",
+  "reviewed_by": "parent"
+}

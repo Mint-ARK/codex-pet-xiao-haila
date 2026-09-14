@@ -1,0 +1,15 @@
+{
+  "row": "look-row-9",
+  "overall": "pass",
+  "directions": [
+    {"degree": "000", "verdict": "pass", "observed": "up", "reason": "Two eyes and centered nose are visible; head and gaze lift."},
+    {"degree": "022.5", "verdict": "pass", "observed": "up-right", "reason": "Both eyes remain visible and the nose shifts screen-right."},
+    {"degree": "045", "verdict": "pass", "observed": "up-right", "reason": "Rightward head turn is clear with an offset nose."},
+    {"degree": "067.5", "verdict": "pass", "observed": "up-right", "reason": "Dominant eye and nose point screen-right near profile."},
+    {"degree": "090", "verdict": "pass", "observed": "right", "reason": "Single eye and face edge clearly point screen-right."},
+    {"degree": "112.5", "verdict": "pass", "observed": "down-right", "reason": "Eye and nose stay on the screen-right edge while the head pitches down."},
+    {"degree": "135", "verdict": "pass", "observed": "down-right", "reason": "Head turns farther down-right without reversal."},
+    {"degree": "157.5", "verdict": "pass", "observed": "down-right", "reason": "Near-down view retains a subtle screen-right cue."}
+  ],
+  "continuity": "Monotonic up-to-right-to-down-right turn with stable scale, baseline, and non-overlapping spacing."
+}

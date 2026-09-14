@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "frames_root": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\idle\\frames",
+  "states": [
+    "idle"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\idle\\frames\\idle\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16299,
+          "bbox": [
+            34,
+            5,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 122
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\idle\\frames\\idle\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16144,
+          "bbox": [
+            35,
+            5,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 114
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\idle\\frames\\idle\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16213,
+          "bbox": [
+            35,
+            5,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 121
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\idle\\frames\\idle\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16147,
+          "bbox": [
+            36,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 124
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\idle\\frames\\idle\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16053,
+          "bbox": [
+            35,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 129
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\idle\\frames\\idle\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16252,
+          "bbox": [
+            34,
+            5,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 115
+        }
+      ]
+    }
+  ]
+}

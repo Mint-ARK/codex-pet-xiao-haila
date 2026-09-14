@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "C:\\Users\\Suzur\\Desktop\\lua解析\\artifacts\\codex_pets\\xiao_haila",
+  "spritesheet": "C:\\Users\\Suzur\\Desktop\\lua解析\\artifacts\\codex_pets\\xiao_haila\\final\\spritesheet-extended.webp",
+  "validation": "C:\\Users\\Suzur\\Desktop\\lua解析\\artifacts\\codex_pets\\xiao_haila\\final\\validation-extended.json",
+  "installed_validation": "C:\\Users\\Suzur\\Desktop\\lua解析\\artifacts\\codex_pets\\xiao_haila\\final\\validation-installed.json",
+  "chroma_despill": "C:\\Users\\Suzur\\Desktop\\lua解析\\artifacts\\codex_pets\\xiao_haila\\qa\\chroma-despill-extended.json",
+  "contact_sheet": "C:\\Users\\Suzur\\Desktop\\lua解析\\artifacts\\codex_pets\\xiao_haila\\qa\\contact-sheet-extended.png",
+  "direction_sheet": "C:\\Users\\Suzur\\Desktop\\lua解析\\artifacts\\codex_pets\\xiao_haila\\qa\\look-directions.png",
+  "direction_semantics": "C:\\Users\\Suzur\\Desktop\\lua解析\\artifacts\\codex_pets\\xiao_haila\\qa\\direction-semantics.json",
+  "blind_direction_validation": "C:\\Users\\Suzur\\Desktop\\lua解析\\artifacts\\codex_pets\\xiao_haila\\qa\\direction-blind-validation.json",
+  "blind_review_resolution": "C:\\Users\\Suzur\\Desktop\\lua解析\\artifacts\\codex_pets\\xiao_haila\\qa\\blind-review-resolution.json",
+  "continuity": "C:\\Users\\Suzur\\Desktop\\lua解析\\artifacts\\codex_pets\\xiao_haila\\qa\\look-continuity.json",
+  "review": "C:\\Users\\Suzur\\Desktop\\lua解析\\artifacts\\codex_pets\\xiao_haila\\qa\\review.json",
+  "package": "C:\\Users\\Suzur\\.codex\\pets\\xiao-haila"
+}

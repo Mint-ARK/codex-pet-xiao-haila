@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "frames_root": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\running-right\\frames",
+  "states": [
+    "running-right"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\running-right\\frames\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14442,
+          "bbox": [
+            31,
+            5,
+            160,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 141
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\running-right\\frames\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14011,
+          "bbox": [
+            33,
+            5,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 121
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\running-right\\frames\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14584,
+          "bbox": [
+            30,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 154
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\running-right\\frames\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14359,
+          "bbox": [
+            30,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 114
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\running-right\\frames\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14629,
+          "bbox": [
+            30,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 132
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\running-right\\frames\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14962,
+          "bbox": [
+            30,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 162
+        },
+        {
+          "index": 6,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\running-right\\frames\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14190,
+          "bbox": [
+            33,
+            5,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 140
+        },
+        {
+          "index": 7,
+          "file": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila\\qa\\rows\\running-right\\frames\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14231,
+          "bbox": [
+            31,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 130
+        }
+      ]
+    }
+  ]
+}

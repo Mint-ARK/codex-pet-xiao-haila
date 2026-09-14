@@ -1,0 +1,829 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T08:14:50.575443+00:00",
+  "run_dir": "C:\\Users\\Suzur\\Desktop\\lua\u89e3\u6790\\artifacts\\codex_pets\\xiao_haila",
+  "primary_generation_skill": "$imagegen",
+  "jobs": [
+    {
+      "id": "base",
+      "kind": "base-pet",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efc-3064-7d21-bdb2-3721370b60a0\\exec-94bb8207-1a97-4196-92c4-7efa2dfd5a45.png",
+      "completed_at": "2026-09-14T08:17:36.2235730Z",
+      "prompt_file": "prompts/base-pet.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        }
+      ],
+      "output_path": "decoded/base.png",
+      "depends_on": [],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false
+    },
+    {
+      "id": "idle",
+      "kind": "row-strip",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efe-936f-7551-860c-a04e70187917\\exec-af6677bb-2acf-4ab0-94c9-ffc4ad0a9a6a.png",
+      "completed_at": "2026-09-14T08:23:40Z",
+      "prompt_file": "prompts/rows/idle.md",
+      "retry_prompt_file": "prompts/row-retries/idle.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/idle.png",
+          "role": "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/idle.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "no deterministic derivation is configured for this state"
+      },
+      "mirror_policy": {}
+    },
+    {
+      "id": "running-right",
+      "kind": "row-strip",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efe-bc53-78e1-b477-f769a1e1ff01\\exec-60e68915-29e9-4b2f-8ab8-4c0942fc86d3.png",
+      "completed_at": "2026-09-14T08:22:30Z",
+      "prompt_file": "prompts/rows/running-right.md",
+      "retry_prompt_file": "prompts/row-retries/running-right.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/running-right.png",
+          "role": "layout guide for 8 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/running-right.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "no deterministic derivation is configured for this state"
+      },
+      "mirror_policy": {}
+    },
+    {
+      "id": "running-left",
+      "kind": "row-strip",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efe-e4b5-7381-b39d-9c4c241043d6\\exec-9875166a-500c-4071-a095-cd1ea9c5aecd.png",
+      "completed_at": "2026-09-14T08:34:25Z",
+      "prompt_file": "prompts/rows/running-left.md",
+      "retry_prompt_file": "prompts/row-retries/running-left.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/running-left.png",
+          "role": "layout guide for 8 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        },
+        {
+          "path": "decoded/running-right.png",
+          "role": "rightward gait reference for leftward row decision"
+        }
+      ],
+      "output_path": "decoded/running-left.png",
+      "depends_on": [
+        "base",
+        "running-right"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base",
+        "running-right"
+      ],
+      "derivation_policy": {
+        "may_derive": true,
+        "may_derive_from": "running-right",
+        "derivation": "framewise-horizontal-mirror-preserving-order",
+        "requires_explicit_approval": true,
+        "fallback_generation_skill": "$imagegen"
+      },
+      "mirror_policy": {
+        "may_derive": true,
+        "may_derive_from": "running-right",
+        "derivation": "framewise-horizontal-mirror-preserving-order",
+        "requires_explicit_approval": true,
+        "fallback_generation_skill": "$imagegen"
+      }
+    },
+    {
+      "id": "waving",
+      "kind": "row-strip",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efe-e4b5-7381-b39d-9c4c241043d6\\exec-39184bb9-325d-4307-8ade-fb1f043fb987.png",
+      "completed_at": "2026-09-14T08:23:40Z",
+      "prompt_file": "prompts/rows/waving.md",
+      "retry_prompt_file": "prompts/row-retries/waving.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/waving.png",
+          "role": "layout guide for 4 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/waving.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {}
+    },
+    {
+      "id": "jumping",
+      "kind": "row-strip",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efe-936f-7551-860c-a04e70187917\\exec-46f61513-999e-44e5-a85f-94e715d888e8.png",
+      "completed_at": "2026-09-14T08:27:15Z",
+      "prompt_file": "prompts/rows/jumping.md",
+      "retry_prompt_file": "prompts/row-retries/jumping.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/jumping.png",
+          "role": "layout guide for 5 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/jumping.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {}
+    },
+    {
+      "id": "failed",
+      "kind": "row-strip",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efe-bc53-78e1-b477-f769a1e1ff01\\exec-a4814b3a-126c-45b0-a4fd-cfd20699804c.png",
+      "completed_at": "2026-09-14T08:27:15Z",
+      "prompt_file": "prompts/rows/failed.md",
+      "retry_prompt_file": "prompts/row-retries/failed.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/failed.png",
+          "role": "layout guide for 8 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/failed.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {}
+    },
+    {
+      "id": "waiting",
+      "kind": "row-strip",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efe-e4b5-7381-b39d-9c4c241043d6\\exec-3427646e-96c6-4f6d-9e80-a34d02e38802.png",
+      "completed_at": "2026-09-14T08:29:25Z",
+      "prompt_file": "prompts/rows/waiting.md",
+      "retry_prompt_file": "prompts/row-retries/waiting.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/waiting.png",
+          "role": "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/waiting.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {}
+    },
+    {
+      "id": "running",
+      "kind": "row-strip",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efe-936f-7551-860c-a04e70187917\\exec-336ada35-6776-4a3e-bfdd-07d8439620f3.png",
+      "completed_at": "2026-09-14T08:36:20Z",
+      "prompt_file": "prompts/rows/running.md",
+      "retry_prompt_file": "prompts/row-retries/running.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/running.png",
+          "role": "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/running.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {}
+    },
+    {
+      "id": "review",
+      "kind": "row-strip",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efe-bc53-78e1-b477-f769a1e1ff01\\exec-cdd8a929-eb13-4ae4-9728-b54b5c4eb9ec.png",
+      "completed_at": "2026-09-14T08:32:30Z",
+      "prompt_file": "prompts/rows/review.md",
+      "retry_prompt_file": "prompts/row-retries/review.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/review.png",
+          "role": "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/review.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {}
+    },
+    {
+      "id": "look-cardinals",
+      "kind": "look-cardinal-strip",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efe-bc53-78e1-b477-f769a1e1ff01\\exec-2178f0ef-f974-447f-84a2-110aadf93392.png",
+      "completed_at": "2026-09-14T08:39:00Z",
+      "prompt_file": "prompts/look-cardinals.md",
+      "repair_prompt_files": {
+        "000": "prompts/look-anchor-repairs/000.md",
+        "090": "prompts/look-anchor-repairs/090.md",
+        "180": "prompts/look-anchor-repairs/180.md",
+        "270": "prompts/look-anchor-repairs/270.md"
+      },
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/look-cardinals.png",
+          "role": "layout guide for four cardinal slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        },
+        {
+          "path": "qa/contact-sheet.png",
+          "role": "approved standard-row identity, scale, and baseline reference"
+        }
+      ],
+      "output_path": "decoded/look-cardinals.png",
+      "extracted_output_paths": [
+        "decoded/look-anchors/000.png",
+        "decoded/look-anchors/090.png",
+        "decoded/look-anchors/180.png",
+        "decoded/look-anchors/270.png"
+      ],
+      "approved_strip_path": "decoded/look-anchors-approved.png",
+      "depends_on": [
+        "idle",
+        "running-right",
+        "running-left",
+        "waving",
+        "jumping",
+        "failed",
+        "waiting",
+        "running",
+        "review"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "look_mechanics_file": "qa/look-mechanics.md",
+      "directions": [
+        "000",
+        "090",
+        "180",
+        "270"
+      ],
+      "packaging_eligible": false,
+      "parallelizable_after": [
+        "idle",
+        "running-right",
+        "running-left",
+        "waving",
+        "jumping",
+        "failed",
+        "waiting",
+        "running",
+        "review"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "cardinal directions require grounded pet-specific generation"
+      }
+    },
+    {
+      "id": "look-row-9",
+      "kind": "look-row-strip",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efe-e4b5-7381-b39d-9c4c241043d6\\exec-80a9eea3-8624-46d2-9d96-9bd54d52b2e9.png",
+      "completed_at": "2026-09-14T08:47:10Z",
+      "prompt_file": "prompts/rows/look-row-9.md",
+      "retry_prompt_file": "prompts/row-retries/look-row-9.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/look-row-9.png",
+          "role": "layout guide for 8 direction slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        },
+        {
+          "path": "qa/contact-sheet.png",
+          "role": "approved standard-row identity, scale, and baseline reference"
+        },
+        {
+          "path": "decoded/look-anchors-approved.png",
+          "role": "approved cardinal reference strip in order 000 up, 090 screen-right, 180 down, 270 screen-left; interpolate intermediate directions evenly"
+        }
+      ],
+      "output_path": "decoded/look-row-9.png",
+      "depends_on": [
+        "look-cardinals"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "look_mechanics_file": "qa/look-mechanics.md",
+      "directions": [
+        "000",
+        "022.5",
+        "045",
+        "067.5",
+        "090",
+        "112.5",
+        "135",
+        "157.5"
+      ],
+      "parallelizable_after": [
+        "look-cardinals"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "look directions require grounded pet-specific generation"
+      },
+      "coherent_synthesis_required": true,
+      "individual_cell_packaging_allowed": false,
+      "packaging_eligible": true
+    },
+    {
+      "id": "look-row-10",
+      "kind": "look-row-strip",
+      "status": "complete",
+      "source_path": "C:\\Users\\Suzur\\.codex\\generated_images\\01a09efe-e4b5-7381-b39d-9c4c241043d6\\exec-5d162673-1bd1-4f8b-97d8-22aee07f3d8d.png",
+      "completed_at": "2026-09-14T08:54:50Z",
+      "prompt_file": "prompts/rows/look-row-10.md",
+      "retry_prompt_file": "prompts/row-retries/look-row-10.md",
+      "input_images": [
+        {
+          "path": "references\\reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-02.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-03.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-04.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references\\reference-05.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/look-row-10.png",
+          "role": "layout guide for 8 direction slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        },
+        {
+          "path": "qa/contact-sheet.png",
+          "role": "approved standard-row identity, scale, and baseline reference"
+        },
+        {
+          "path": "decoded/look-anchors-approved.png",
+          "role": "approved cardinal reference strip in order 000 up, 090 screen-right, 180 down, 270 screen-left; interpolate intermediate directions evenly"
+        },
+        {
+          "path": "decoded/look-row-9.png",
+          "role": "completed first half of the clockwise look loop for row 10 continuity"
+        }
+      ],
+      "output_path": "decoded/look-row-10.png",
+      "depends_on": [
+        "look-cardinals",
+        "look-row-9"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "look_mechanics_file": "qa/look-mechanics.md",
+      "directions": [
+        "180",
+        "202.5",
+        "225",
+        "247.5",
+        "270",
+        "292.5",
+        "315",
+        "337.5"
+      ],
+      "parallelizable_after": [
+        "look-cardinals",
+        "look-row-9"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "look directions require grounded pet-specific generation"
+      },
+      "coherent_synthesis_required": true,
+      "individual_cell_packaging_allowed": false,
+      "packaging_eligible": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "reviewed_by": "independent-visual-qa",
+  "directions": [
+    {"degree":"000","verdict":"pass","expected":"up","observed":"up","reason":"Both eyes centered and chin lifted."},
+    {"degree":"022.5","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Eyes and nose shift screen-right while gaze and chin lift."},
+    {"degree":"045","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Rightward head turn is clear and gaze remains lifted."},
+    {"degree":"067.5","verdict":"pass","expected":"up-right","observed":"up-right","reason":"Near-profile faces screen-right with lifted chin."},
+    {"degree":"090","verdict":"pass","expected":"right","observed":"right","reason":"Single eye and nose tip clearly face screen-right."},
+    {"degree":"112.5","verdict":"warning","expected":"down-right","observed":"down-right","reason":"Labeled view shows rightward face with lowered gaze; blind horizontal classification conflicted."},
+    {"degree":"135","verdict":"pass","expected":"down-right","observed":"down-right","reason":"Head remains turned screen-right and pitches farther down."},
+    {"degree":"157.5","verdict":"warning","expected":"down-right","observed":"down-right","reason":"Subtle screen-right cue remains while gaze lowers; blind review found horizontal ambiguity."},
+    {"degree":"180","verdict":"pass","expected":"down","observed":"down","reason":"Eyes and chin visibly lower."},
+    {"degree":"202.5","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Eyes and nose shift screen-left while gaze lowers."},
+    {"degree":"225","verdict":"pass","expected":"down-left","observed":"down-left","reason":"Leftward profile is clear and continues downward."},
+    {"degree":"247.5","verdict":"warning","expected":"down-left","observed":"down-left","reason":"Labeled view shows leftward face with lowered gaze; blind horizontal classification conflicted."},
+    {"degree":"270","verdict":"pass","expected":"left","observed":"left","reason":"Single eye and nose tip clearly face screen-left."},
+    {"degree":"292.5","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Eyes and nose shift screen-left while gaze and chin lift."},
+    {"degree":"315","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Head remains turned screen-left and lifts."},
+    {"degree":"337.5","verdict":"pass","expected":"up-left","observed":"up-left","reason":"Subtle screen-left cue transitions smoothly back toward up."}
+  ]
+}
